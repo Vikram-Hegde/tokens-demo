@@ -1,7 +1,7 @@
-@use './design-tokens/tokens/reset' as *;
-@use './design-tokens/tokens/mixins' as *;
-@use './design-tokens/tokens/functions' as *;
-@use './design-tokens/tokens/base';
+@use './design-tokens/reset' as *;
+@use './design-tokens/mixins' as *;
+@use './design-tokens/functions' as *;
+@use './design-tokens/base';
 
 body {
 	--wrapper: min(100% - 2rem, 60ch);
