@@ -3,7 +3,7 @@ let range = document.querySelector('.range') as HTMLInputElement;
 let html = document.querySelector('html') as HTMLHtmlElement;
 
 range?.addEventListener('input', () => {
-	html?.style.setProperty('--h', `${range?.value}`);
+	html?.style.setProperty('--h', `${range?.value}deg`);
 });
 
 function getThemePreference() {
