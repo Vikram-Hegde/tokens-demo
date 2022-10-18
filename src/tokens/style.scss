@@ -1,0 +1,12 @@
+@use '../styles/design-tokens/functions' as func;
+@use '../styles/design-tokens/mixins' as mixin;
+
+@use '../styles/design-tokens/theme';
+@use '../styles/design-tokens/typography';
+@use '../styles/design-tokens/reset';
+@use '../styles/design-tokens/base';
+
+body {
+	inline-size: min(100% - 2rem, 70ch);
+	margin-inline: auto;
+}
