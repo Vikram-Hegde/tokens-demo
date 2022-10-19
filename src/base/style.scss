@@ -10,3 +10,9 @@ body {
 	inline-size: min(100% - 2rem, 70ch);
 	margin-inline: auto;
 }
+
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
